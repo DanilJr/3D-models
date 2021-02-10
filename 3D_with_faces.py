@@ -56,6 +56,7 @@ class Point:
 
 
 #zero-division check
+#result or 0
 def zero_div(a, b):
     return float(a)/b if b else 0
 
